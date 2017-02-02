@@ -1,0 +1,46 @@
+body {
+    
+}
+.warning {
+    text-align: center;
+    color: darkred;
+    font-size: 35px;
+    font-family: "Times New Roman";
+}
+.para1 {
+    border-style: solid;
+    border-color: blue;
+    text-align: center;
+    color: red;
+}
+.para2 {
+    color: white;
+    border-radius: 5px;
+    border-color: red;
+    text-align: left;
+    background: black;
+}
+.para3 {
+    /*Use the third class or id to make its associated paragraph: have a font of Impact, Charcoal, sans-serif and a text color of #ffcc00*/
+    font-family: "Impact", "Charcoal", "Sans Serif";
+    color: #ffcc00;
+} 
+ /* unvisited link */
+a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: orange;
+}
+
+/* selected link */
+a:active {
+    color: deeppink;
+}
